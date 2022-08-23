@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .NAVBAR {
+            height: 50px;
+            background-color: red;
+        }
+
+        .LOGO {
+            text-align: center;
+            height: 30PX;
+            width: 30PX;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: WHITE;
+            text-align: center;
+            font-size: 22px;
+            color: red;
+            margin-top: 10PX;
+            margin-left: 30PX;
+        }
+
+        .login {
+            display: inline-block;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            color: white;
+            background-color: red;
+            border: 0;
+            margin-left: 60%;
+        }
+
+        .add_button {
+            height: 40px;
+            width: 150px;
+            border-color: white;
+            background-color: red;
+            display: inline-block;
+
+            /* margin-bottom: 30px; */
+            text-align: center;
+            color: white;
+        }
+
+        .H1 {
+            color: #0d3575;
+
+            margin-left: 2%;
+        }
+
+        .FILTERS_PANEL {
+            display: inline-block;
+            height: 566PX;
+            width: 250PX;
+            margin-left: 5%;
+            background-color: #ffffff;
+            box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        }
+
+        .FILTER_HEADLINE {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .SELECT_LOCATION {
+
+            font-size: 15PX;
+            margin-top: 20px;
+
+        }
+
+        .RECTANGLE_BOX {
+            margin-top: 5px;
+            width: 200PX;
+            height: 25PX;
+            ;
+        }
+
+        .CUISINE {
+            font-size: 15PX;
+
+        }
+
+        .checkboxes {
+            font size: 12px;
+            opacity: 60%;
+        }
+
+        .radio_btn {
+            font size: 12px;
+            opacity: 60%;
+        }
+
+        .vertical {
+            vertical-align: top;
+            box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        }
+
+        .middle {
+            display: inline-block;
+            width: 68%;
+            /* float: right; */
+
+            /*margin-left: 20px;*/
+        }
+
+        .pagination {
+            margin-left: 250px;
+            margin-top: 10px;
+            display: inline-block;
+        }  
+           
+        .pagination a{
+            color: grey;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: solid 1px gray;
+            border-radius: 15px;
+            margin: 2px;
+
+        }
+
+        
+
+        .heading {
+            display: inline-block;
+
+            font-size: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+        }
+
+        .image {
+            display: inline-block;
+            height: 150px;
+            width: 200px;
+            border-radius: 15px;
+            margin-left: 20px;
+
+        }
+
+        .address {
+            color: grey;
+        }
+
+        .big_item {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .new {
+            margin-left: 7%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <DIV class="NAVBAR">
+        <DIV class="LOGO">e!</DIV>
+        <button class="login" type="button">login</button>
+        <button class="add_button">Add An Account</button>
+    </DIV>
+    <DIV CLASS="H1">
+        <h2>BREAKFAST PLACES IN MUMBAI</h2>
+    </DIV>
+    <DIV class="FILTERS_PANEL">
+        <DIV class="FILTER_HEADLINE">FILTERS</DIV>
+        <DIV class="SELECT_LOCATION">SELECT LOCATION</DIV>
+        <DIV><SELECT class="RECTANGLE_BOX">
+                <OPTION>SELECT</OPTION>
+                <OPTION>Apollo Bandar</OPTION>
+                <OPTION> Borivali East</OPTION>
+                <OPTION>Ghatkopar West</OPTION>
+                <OPTION>NEW MUMBAI</OPTION>
+                <OPTION>Gharapuri</OPTION>
+            </SELECT></DIV><br><br>
+        <DIV class="CUISINE">CUISINE</DIV>
+        <div class="checkboxes">
+            <input type="checkbox">North indian.<br>
+            <input type="checkbox">South indian.<br>
+            <input type="checkbox">Chinese.<br>
+            <input type="checkbox">Fast Food.<br>
+            <input type="checkbox">Street Food.<br><br>
+        </DIV>
+        <div class="CUISINE">
+            Cost For Two
+        </div>
+        <div class="radio_btn">
+            <input type="radio" name="cost">less than ₹ 500.<br>
+            <input type="radio" name="cost">₹ 500 to ₹ 1000<br>
+            <input type="radio" name="cost">₹ 1000 to ₹ 1500.<br>
+            <input type="radio" name="cost">₹ 1500 to ₹ 2000.<br>
+            <input type="radio" name="cost">₹ 2000 +<br>
+        </div><br><br>
+        <div class="cuisine"> Sorts</div>
+        <div class="checkboxes">
+            <input type="radio" name="sort">price low to high.<br>
+            <input type="radio" name="sort">price high to low<br>
+        </div>
+    </DIV>
+    <div class="middle vertical">
+
+
+        <div class="items vertical">
+            <div class="items">
+                <img class="image" src="./breakfast.jpg">
+                <div class="big_item">
+
+                    <div class="heading">The Big Chill Cakrey</div><br>
+                    <div class="new_item">FORT</div><br>
+                    <div class="address">Shop 1, Plot D, Samruddhi Complex, chincholi</div><br>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div>
+                    <div class="new">
+                        <div class="address">COST FOR TWO: ₹ 700</div><br>
+                        <div class="address">CUISINE: Bakery</div><br>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <div class="items vertical">
+            <div class="items">
+                <img class="image" src="./breakfast.jpg">
+                <div class="big_item">
+
+                    <div class="heading">The Big Chill Cakrey</div><br>
+                    <div class="new_item">FORT</div><br>
+                    <div class="address">Shop 1, Plot D, Samruddhi Complex, chincholi</div><br>
+                </div>
+                <hr>
+                <br>
+                <br>
+                <div>
+                    <div class="new">
+                        <div class="address">COST FOR TWO: ₹ 700</div><br>
+                        <div class="address">CUISINE: Bakery</div><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="#"> « </a>
+            <a href="#"> 1</a>
+            <a href="#">2 </a>
+            <a href="#"> 3 </a>
+            <a href="#"> 4 </a>
+            <a href="#"> 5 </a>
+            <a href="#"> 6 </a>
+            <a href="#"> » </a>
+        </div>
+    </div>
+        
+
+
+
+
+
+
+
+</body>
+
+</html>
